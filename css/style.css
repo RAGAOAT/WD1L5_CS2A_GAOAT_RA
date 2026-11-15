@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fab4d6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Login and Grocery Sections */
+section {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #bdbdbd;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #f90068;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #f969a0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    background-color: #a90071;
+    color: white;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ef129a;
+}
+
+/* Grocery List */
+#groceryList {
+    padding-left: 0;
+    list-style: none;
+}
+
+#groceryList li {
+    background-color: #e8f5e9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+/* Messages */
+#loginMessage, #regMessage {
+    color: #2e7d32;
+    text-align: center;
+    font-weight: bold;
+}
